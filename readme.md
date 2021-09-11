@@ -26,23 +26,13 @@ Trabalho apresentado ao curso [BI MASTER](https://ica.puc-rio.ai/bi-master) como
 
 <!-- trocar o texto abaixo pelo resumo do trabalho, em português -->
 
-Context
-The dataset was created by my team during the NASA Space Apps Challenge in 2018, the goal was using the dataset to develop a model that can recognize the images with fire.
-If you seek more info about the Context or the challenge, then you can visit Our team page.
+Contexto O conjunto de dados foi criado pela minha equipe durante o NASA Space Apps Challenge em 2018, o objetivo era usar o conjunto de dados para desenvolver um modelo que pudesse reconhecer as imagens com fogo. Se procura mais informações sobre o Contexto ou o desafio, pode visitar a página da nossa equipa.
 
-Content
-Data was collected to train a model to distinguish between the images that contain fire (fire images) and regular images (non-fire images), so the whole problem was binary classification.
+Dados de conteúdo foram coletados para treinar um modelo para distinguir entre as imagens que contêm fogo (imagens de fogo) e imagens regulares (imagens de não fogo), então todo o problema era classificação binária.
 
-Data is divided into 2 folders, fireimages folder contains 755 outdoor-fire images some of them contains heavy smoke, the other one is non-fireimages which contain 244 nature images (eg: forest, tree, grass, river, people, foggy forest, lake, animal, road, and waterfall).
+Os dados estão divididos em 2 pastas, a pasta fireimages contém 755 imagens de incêndio ao ar livre, algumas delas contêm fumaça pesada, a outra não são imagens de incêndio que contêm 244 imagens da natureza (por exemplo: floresta, árvore, grama, rio, pessoas, floresta nebulosa, lago, animal, estrada e cachoeira).
 
-Hint: Data is skewed, which means the 2 classes(folders) doesn't have an equal number of samples, so make sure that you have a validation set with an equally-sized number of images per class (eg: 40 images of both fire and non-fire classes).
-
-Acknowledgements
-Team Members:
-1-Ahmed Gamaleldin: https://www.linkedin.com/in/ahmedgamal1496/
-2-Ahmed Atef: https://www.linkedin.com/in/ahmed-atef-a081aa141/
-3-Heba Saker: https://www.linkedin.com/in/heba-sakr/
-4-Ahmed Shaheen: https://www.linkedin.com/in/ahmed-a-shaheen/
+Dica: os dados estão distorcidos, o que significa que as 2 classes (pastas) não têm um número igual de amostras, então certifique-se de ter um conjunto de validação com um número igual de imagens por classe (por exemplo: 40 imagens de ambas classes de fogo e não fogo).
 
 ### Abstract <!-- Opcional! Caso não aplicável, remover esta seção -->
 
@@ -59,12 +49,6 @@ Data is divided into 2 folders, fireimages folder contains 755 outdoor-fire imag
 
 Hint: Data is skewed, which means the 2 classes(folders) doesn't have an equal number of samples, so make sure that you have a validation set with an equally-sized number of images per class (eg: 40 images of both fire and non-fire classes).
 
-Acknowledgements
-Team Members:
-1-Ahmed Gamaleldin: https://www.linkedin.com/in/ahmedgamal1496/
-2-Ahmed Atef: https://www.linkedin.com/in/ahmed-atef-a081aa141/
-3-Heba Saker: https://www.linkedin.com/in/heba-sakr/
-4-Ahmed Shaheen: https://www.linkedin.com/in/ahmed-a-shaheen/
 
 ---
 
