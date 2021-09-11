@@ -5,8 +5,8 @@
 Projeto de conclusão da pós-graduação BI-MASTER na PUC-RJ
 
 #### Alun(o/a): [Fabio Basson](https://github.com/link_do_github).
-#### Orientador(/a/es/as): [Nome Sobrenome](https://github.com/link_do_github).
-#### Co-orientador(/a/es/as): [Nome Sobrenome](https://github.com/link_do_github). <!-- caso não aplicável, remover esta linha -->
+#### Orientador(/a/es/as): [Manoela Kohler](https://github.com/link_do_github).
+#### Co-orientador(/a/es/as): [Felipe Borges](https://github.com/link_do_github). <!-- caso não aplicável, remover esta linha -->
 
 ---
 
