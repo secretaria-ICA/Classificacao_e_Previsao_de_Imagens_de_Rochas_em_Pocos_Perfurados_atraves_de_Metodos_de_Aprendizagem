@@ -1,6 +1,6 @@
 <!-- antes de enviar a versão final, solicitamos que todos os comentários, colocados para orientação ao aluno, sejam removidos do arquivo -->
 
-# Título do Trabalho
+# Geological_Image_Similarity
 
 Projeto de conclusão da pós-graduação BI-MASTER na PUC-RJ
 
