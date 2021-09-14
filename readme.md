@@ -38,16 +38,14 @@ Dica: os dados estão distorcidos, o que significa que as 2 classes (pastas) nã
 
 <!-- trocar o texto abaixo pelo resumo do trabalho, em inglês -->
 
-Context
-The dataset was created by my team during the NASA Space Apps Challenge in 2018, the goal was using the dataset to develop a model that can recognize the images with fire.
-If you seek more info about the Context or the challenge, then you can visit Our team page.
+BACKGROUND
+A geology research company wants to create a tool for identifying interesting patterns in their imagery data. This tool
+will possess a search capability whereby an analyst provides an image of interest and is presented with other images
+which are similar to it.
 
-Content
-Data was collected to train a model to distinguish between the images that contain fire (fire images) and regular images (non-fire images), so the whole problem was binary classification.
-
-Data is divided into 2 folders, fireimages folder contains 755 outdoor-fire images some of them contains heavy smoke, the other one is non-fireimages which contain 244 nature images (eg: forest, tree, grass, river, people, foggy forest, lake, animal, road, and waterfall).
-
-Hint: Data is skewed, which means the 2 classes(folders) doesn't have an equal number of samples, so make sure that you have a validation set with an equally-sized number of images per class (eg: 40 images of both fire and non-fire classes).
+GOAL
+Task is to create the machine learning component for this image similarity application. The machine learning
+model should return the top K images that are most similar to this image based on a single image input.
 
 
 ---
