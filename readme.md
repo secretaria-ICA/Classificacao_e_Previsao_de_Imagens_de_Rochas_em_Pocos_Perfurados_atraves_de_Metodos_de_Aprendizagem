@@ -1,6 +1,6 @@
 <!-- antes de enviar a versão final, solicitamos que todos os comentários, colocados para orientação ao aluno, sejam removidos do arquivo -->
 
-# Geological_Image_Similarity
+# Geological_Image_Comparative
 
 Projeto de conclusão da pós-graduação BI-MASTER na PUC-RJ
 
@@ -27,26 +27,25 @@ Trabalho apresentado ao curso [BI MASTER](https://ica.puc-rio.ai/bi-master) como
 <!-- trocar o texto abaixo pelo resumo do trabalho, em português -->
 
 FUNDO
-Uma empresa de pesquisa geológica deseja criar uma ferramenta para identificar padrões interessantes em seus dados de imagens. Esta ferramenta
+Uma empresa de pesquisa geológica deseja criar uma ferramenta para identificar e comparar os dados de suas imagens. Esta ferramenta
 possuirá uma capacidade de pesquisa em que um analista fornece uma imagem de interesse e é apresentada a outras imagens
-que são semelhantes a ele.
+com carateer de classificatório das mesmas.
 
 META
-A tarefa é criar o componente de aprendizado de máquina para este aplicativo de semelhança de imagem. O aprendizado de máquina
-o modelo deve retornar as K principais imagens que são mais semelhantes a esta imagem com base em uma única entrada de imagem.
-
+A tarefa é criar o componente de aprendizado de máquina para este aplicativo de comparação e classificação de imagem. O aprendizado de máquina
+o modelo deve retornar a classificação das imagens com base nas imagens de entrada.
 ### Abstract <!-- Opcional! Caso não aplicável, remover esta seção -->
 
 <!-- trocar o texto abaixo pelo resumo do trabalho, em inglês -->
 
 BACKGROUND
-A geology research company wants to create a tool for identifying interesting patterns in their imagery data. This tool
-will possess a search capability whereby an analyst provides an image of interest and is presented with other images
-which are similar to it.
+A geological survey company wants to create a tool to identify and compare data from their images. This tool
+will have a search capability where an analyst provides an image of interest and is presented to other images
+with their classifier character.
 
 GOAL
-Task is to create the machine learning component for this image similarity application. The machine learning
-model should return the top K images that are most similar to this image based on a single image input.
+The task is to create the machine learning component for this image comparison and classification application. machine learning
+the template should return the ranking of images based on the input images.
 
 
 ---
