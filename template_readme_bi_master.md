@@ -1,7 +1,7 @@
 <!-- antes de enviar a versão final, solicitamos que todos os comentários, colocados para orientação ao aluno, sejam removidos do arquivo -->
-# Título do Trabalho
+# Geological_Image_Comparative
 
-#### Aluno: [Fabio Basson](https://github.com/fabiobasson/Bi-Master/edit/main)
+#### Aluno: [Fabio Basson](https://github.com/fabiobasson/Bi-Master/blob/main/geological_comparative08102021.ipynb)
 #### Orientador: [Felipe Borges](https://github.com/FelipeBorgesC) e [Manoela Kohler](https://github.com/link_do_github).
 #### Co-orientador(/a/es/as): [Nome Sobrenome](https://github.com/link_do_github) e [Nome Sobrenome](https://github.com/link_do_github). <!-- caso não aplicável, remover esta linha -->
 
