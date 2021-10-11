@@ -1,5 +1,5 @@
 <!-- antes de enviar a versão final, solicitamos que todos os comentários, colocados para orientação ao aluno, sejam removidos do arquivo -->
-# Classificação e Predição imagens de rochas em poços perfurados via Métodos de Aprendizado Supervisionado - Geological Image Classification
+# Classificação e Predição de imagens de rochas em poços perfurados via Métodos de Aprendizado Supervisionado - Geological Image Classification
 
 #### Aluno: [Fabio Basson](https://github.com/fabiobasson/Bi-Master/blob/mai)
 #### Orientador: [Felipe Borges](https://github.com/FelipeBorgesC) e [Manoela Kohler](https://github.com/link_do_github).
@@ -25,7 +25,7 @@ Trabalho apresentado ao curso [BI MASTER](https://ica.puc-rio.ai/bi-master) como
 <!-- trocar o texto abaixo pelo resumo do trabalho, em português -->
 
 Uma empresa de pesquisa geológica deseja criar uma ferramenta para identificar e classificar os dados de suas imagens. Esta ferramenta possuirá uma capacidade de pesquisa em que um analista fornece uma imagem de interesse e é apresentada a outras imagens com carater de classificatório das mesmas.
-A tarefa é criar o componente de aprendizado de máquina para este aplicativo de identificação e classificação de imagem. O aprendizado de máquina o modelo deve retornar a classificação das imagens com base nas imagens de entrada.
+A tarefa é criar o componente de deeep learning para este aplicativo de identificação e classificação de imagem. O modelo deve retornar a classificação ea predição das imagens com base nas imagens de entrada.
 
 
 ### Abstract <!-- Opcional! Caso não aplicável, remover esta seção -->
@@ -33,14 +33,15 @@ A tarefa é criar o componente de aprendizado de máquina para este aplicativo d
 <!-- trocar o texto abaixo pelo resumo do trabalho, em inglês -->
 
 A geological survey company wants to create a tool to identify and classify their image data. This tool will have a search capability in which an analyst provides an image of interest and is presented to other images as a classifier.
-The task is to create the machine learning component for this image identification and classification application. The machine learning model must return the classification of images based on the input images.
+The task is to create the deep learning component for this image identification and classification application. The model should return the classification and prediction of the images based on the input images.
 
 
 ### 1. Introdução
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin pulvinar nisl vestibulum tortor fringilla, eget imperdiet neque condimentum. Proin vitae augue in nulla vehicula porttitor sit amet quis sapien. Nam rutrum mollis ligula, et semper justo maximus accumsan. Integer scelerisque egestas arcu, ac laoreet odio aliquet at. Sed sed bibendum dolor. Vestibulum commodo sodales erat, ut placerat nulla vulputate eu. In hac habitasse platea dictumst. Cras interdum bibendum sapien a vehicula.
+Esta monografia visa apresentar a aplicação de métodos de aprendizado supervisionado à predição de imagens de rochas em poços de perfuração e representa uma atualização de estudo anterior desenvolvido por equipe técnica da Petrobras. 
+O uso de deep learning para o processo de orçamentação apresenta uma série de vantagens, entre elas, a redução de HH envolvido, melhoria no grau de assertividade, celeridade na resposta e possibilidade de testar diferentes cenários de projeto em menor tempo. 
+Este trabalho se propõe a classificar as rochas através de suas imagens adquiridas durante as atividades geológicas (perfuração), utilizando uma técnica de Deep Learning. 
 
-Proin feugiat nulla sem. Phasellus consequat tellus a ex aliquet, quis convallis turpis blandit. Quisque auctor condimentum justo vitae pulvinar. Donec in dictum purus. Vivamus vitae aliquam ligula, at suscipit ipsum. Quisque in dolor auctor tortor facilisis maximus. Donec dapibus leo sed tincidunt aliquam.
 
 ### 2. Modelagem
 
