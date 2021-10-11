@@ -1,5 +1,5 @@
 <!-- antes de enviar a versão final, solicitamos que todos os comentários, colocados para orientação ao aluno, sejam removidos do arquivo -->
-# Geological Image Classification
+# Classificação e Predição imagens de rochas em poços perfurados via Métodos de Aprendizado Supervisionado - Geological Image Classification
 
 #### Aluno: [Fabio Basson](https://github.com/fabiobasson/Bi-Master/blob/mai)
 #### Orientador: [Felipe Borges](https://github.com/FelipeBorgesC) e [Manoela Kohler](https://github.com/link_do_github).
