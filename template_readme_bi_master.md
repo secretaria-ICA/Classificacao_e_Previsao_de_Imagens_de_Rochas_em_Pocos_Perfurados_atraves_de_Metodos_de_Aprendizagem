@@ -42,6 +42,7 @@ Esta monografia visa apresentar a aplicação de métodos de aprendizado supervi
 O uso de deep learning para o processo de orçamentação apresenta uma série de vantagens, entre elas, a redução de HH envolvido, melhoria no grau de assertividade, celeridade na resposta e possibilidade de testar diferentes cenários de projeto em menor tempo. 
 Este trabalho se propõe a classificar as rochas através de suas imagens adquiridas durante as atividades geológicas (perfuração), utilizando uma técnica de Deep Learning. 
 
+Utilizamos uma base do Kaggle (https://www.kaggle.com/tanyadayanand/geological-image-similarity/metadata) de setembro de 2020 para iniciarmos esse estudo, embora os dados estejam em inglês, os conceitos básicos são os mesmos. O trabalho envolveu a análise de XXX modelos diferentes, em todos eles foram considerados as etapas: análise exploratória de dados, missing values e reavaliação dos atributos pelo peso.
 
 ### 2. Modelagem
 
@@ -52,8 +53,18 @@ Realizei a criação do Data Augumentation com a finalidade da criação de mais
 Diferentes modelos foram testados usando os seguintes algoritmos de classificação: Decision Tree, Deep Learning, VGG16, KNN, Naive Bayes, SVM, Random Forest, Random Tree e Neural Net.
 Foram testados dois modelos de Machine Learning para classificação supervisionada (Deep Learning e pre treinado VGG16) sendo adotado o modelo XXXX por apresentar as melhores métricas de avaliação.
 
+2.1. Parâmetros do modelo
+Os melhores parâmetros encontrados para o modelo são:
+•	INIT_LR = 1e-3
+•	EPOCHS = 200
+•	BS=24
 
-Proin feugiat nulla sem. Phasellus consequat tellus a ex aliquet, quis convallis turpis blandit. Quisque auctor condimentum justo vitae pulvinar. Donec in dictum purus. Vivamus vitae aliquam ligula, at suscipit ipsum. Quisque in dolor auctor tortor facilisis maximus. Donec dapibus leo sed tincidunt aliquam.
+2.2. Modelos treinados
+
+Foram treinados dois modelos distintos, sendo eles:
+•	Modelo A 
+
+![image](https://user-images.githubusercontent.com/58257963/137154957-db9d5ff2-d488-42b0-9f74-c6b6ad73e382.png)
 
 ### 3. Resultados
 
