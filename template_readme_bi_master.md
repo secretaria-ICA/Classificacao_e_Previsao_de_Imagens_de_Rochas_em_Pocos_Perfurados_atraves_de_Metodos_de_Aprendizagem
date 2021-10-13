@@ -43,16 +43,17 @@ Utilizamos uma base do Kaggle (https://www.kaggle.com/tanyadayanand/geological-i
 
 ### 2. Modelagem
 
-    Primeiramente foi feita a análise dos dados para entender quais atributos manter no modelo, em seguida foi criado um dataframe (data_df) com a divisão entre as imagens (path) e as identificações das rochas (labels).
+Primeiramente foi feita a análise dos dados para entender quais atributos manter no modelo, em seguida foi criado um dataframe (data_df) com a divisão entre as imagens (path) e as identificações das rochas (labels).
     
-    Após isso, as imagens foram convertidas de 28 por 28 para 32 por 32 para que possam abranger só modelos utilizados. O rótulo foi associado a uma rocha. Houve a conversão dos dados de imagens e rótulos em matrizes numpy, enquanto dimensiona os pixels. Os atributos dos rótulos foram codificados em tags (binarias) e, além disso foi verificado quais atributos apresentaram missing values.
+Após isso, as imagens foram convertidas de 28 por 28 para 32 por 32 para que possam abranger só modelos utilizados. O rótulo foi associado a uma rocha. Houve a conversão dos dados de imagens e rótulos em matrizes numpy, enquanto dimensiona os pixels. Os atributos dos rótulos foram codificados em tags (binarias) e, além disso foi verificado quais atributos apresentaram missing values.
+
+O balanceamento dos dados e processos para gerar as duas bases tratadas, nesse momento foi inserida a funcionalidade de Split Data para gerar as duas bases, a de treino (0.8 de partição) e a de teste (0.2 de partição). A seguir, foi novamente realizado esse processo para gerar a base de validação.
     
-    O balanceamento dos dados e processos para gerar as duas bases tratadas, nesse momento foi inserida a funcionalidade de Split Data para gerar as duas bases, a de treino (0.8 de partição) e a de teste (0.2 de partição). A seguir, foi novamente realizado esse processo para gerar a base de validação.
-    
-    Realizei a criação do Data Augumentation com a finalidade da criação de mais dados aleatórios de acordo com a necessidade futura de testes em outros modelos.
+Realizei a criação do Data Augumentation com a finalidade da criação de mais dados aleatórios de acordo com a necessidade futura de testes em outros modelos.
+
 Diferentes modelos foram testados usando os seguintes algoritmos de classificação: Decision Tree, Deep Learning, VGG16, KNN, Naive Bayes, SVM, Random Forest, Random Tree e Neural Net.
 
-    Foram testados dois modelos de Machine Learning para classificação supervisionada (Deep Learning e pre treinado VGG16) sendo adotado o modelo XXXX por apresentar as melhores métricas de avaliação.
+Foram testados dois modelos de Machine Learning para classificação supervisionada (Deep Learning e pre treinado VGG16) sendo adotado o modelo XXXX por apresentar as melhores métricas de avaliação.
 
 2.1. Parâmetros do modelo
 
