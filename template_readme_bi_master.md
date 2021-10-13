@@ -3,7 +3,6 @@
 
 #### Aluno: [Fabio Basson](https://github.com/fabiobasson/Bi-Master/blob/mai)
 #### Orientador: [Felipe Borges](https://github.com/FelipeBorgesC) e [Manoela Kohler](https://github.com/link_do_github).
-#### Co-orientador(/a/es/as): [Nome Sobrenome](https://github.com/link_do_github) e [Nome Sobrenome](https://github.com/link_do_github). <!-- caso não aplicável, remover esta linha -->
 
 ---
 
@@ -54,7 +53,9 @@ Diferentes modelos foram testados usando os seguintes algoritmos de classificaç
 Foram testados dois modelos de Machine Learning para classificação supervisionada (Deep Learning e pre treinado VGG16) sendo adotado o modelo XXXX por apresentar as melhores métricas de avaliação.
 
 2.1. Parâmetros do modelo
+
 Os melhores parâmetros encontrados para o modelo são:
+
 •	INIT_LR = 1e-3
 •	EPOCHS = 200
 •	BS=24
