@@ -69,7 +69,13 @@ Foram treinados dois modelos distintos, sendo eles:
 •	Modelo A 
 
 ![image](https://user-images.githubusercontent.com/58257963/137154957-db9d5ff2-d488-42b0-9f74-c6b6ad73e382.png)
+
 ![image](https://user-images.githubusercontent.com/58257963/137157345-65383880-6ac5-49f0-85df-08de061ee960.png)
+
+![image](https://user-images.githubusercontent.com/58257963/137161684-c718608a-d8b8-4689-9d5b-1a4a36e34115.png)
+
+![image](https://user-images.githubusercontent.com/58257963/137161756-842672ee-f482-4c4e-a56a-c4af7af7d299.png)
+
 
 
 ### 3. Resultados
