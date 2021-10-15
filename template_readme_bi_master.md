@@ -33,7 +33,7 @@ The task is to create the deep learning component for this image identification 
 
 ### 1. Introdução
 
-Esta monografia visa apresentar a aplicação de métodos de aprendizado supervisionado à predição de imagens de rochas em poços de perfuração e representa uma atualização de estudo anterior desenvolvido por equipe técnica da Petrobras. 
+Esta monografia visa apresentar a aplicação de métodos de aprendizado supervisionado à predição de imagens de rochas em poços de perfuração e representa um novo estudo a ser desenvolvido por equipe técnica da Petrobras. 
 
 O uso de deep learning para o processo de orçamentação apresenta uma série de vantagens, entre elas, a redução de HH envolvido, melhoria no grau de assertividade, celeridade na resposta e possibilidade de testar diferentes cenários de projeto em menor tempo. 
 
@@ -89,7 +89,7 @@ Foram gerados dois modelos distintos, pois xxxxxx. Por isso a idéia é que o us
 
 ### 3. Resultados
 
-
+O modelo com a melhor acurácia foi o Deep Learning Modelo Conv2D (A) com 98.29% e o pior foi pre treinado VGG16 Model com 97.45%. Podemos destacar também que o modelo Deep Learning também é eficiente com aplicações tais como: reconhecimento de fala e imagem, processamento de linguagem natural, sistemas de recomendação, dentre outros. Particularmente nesse trabalho, existe a oportunidade de um direcionamento para xxxxxxxxxxxxxxxx.
 
 ### 4. Conclusões
 
