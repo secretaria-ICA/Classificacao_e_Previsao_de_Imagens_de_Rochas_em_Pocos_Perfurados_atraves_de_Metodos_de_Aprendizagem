@@ -75,6 +75,17 @@ Foram treinados dois modelos distintos, sendo eles:
 
 ![image](https://user-images.githubusercontent.com/58257963/137194205-9f4f1b72-6c8d-4b06-86eb-86881ba54e22.png)
 
+Foram gerados dois modelos distintos, pois xxxxxx. Por isso a idéia é que o usuário possa escolher o classificador que melhor se adeque aos dados do usuário.
+
+2.3. Métricas principais de avaliação dos modelos
+
+![image](https://user-images.githubusercontent.com/58257963/137534387-6386534d-0bf4-4e51-8595-fa603e9eb976.png)
+
+•	Acurácia da classificação: 0,9307
+•	Erro da classificação: 0,0693
+•	Precisão: 0,9057
+•	Recall: 0,9600
+
 
 ### 3. Resultados
 
