@@ -51,7 +51,7 @@ O balanceamento dos dados e processos para gerar as duas bases tratadas, nesse m
     
 Realizei a criação do Data Augumentation com a finalidade da criação de mais dados aleatórios de acordo com a necessidade futura de testes em outros modelos.
 
-Diferentes modelos foram testados usando os seguintes algoritmos de classificação: Decision Tree, Deep Learning, VGG16, KNN, Naive Bayes, SVM, Random Forest, Random Tree e Neural Net.
+Diferentes modelos foram testados usando os seguintes algoritmos de classificação: Deep Learning, VGG16, e Neural Net.
 
 Foram testados dois modelos de Machine Learning para classificação supervisionada (Deep Learning e pre treinado VGG16) sendo adotado o modelo XXXX por apresentar as melhores métricas de avaliação.
 
