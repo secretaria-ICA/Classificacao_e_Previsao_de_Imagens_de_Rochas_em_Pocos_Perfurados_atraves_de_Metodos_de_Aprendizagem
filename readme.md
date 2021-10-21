@@ -77,6 +77,7 @@ Foram treinados dois modelos distintos, sendo eles:
 
 •	Modelo C
 
+Inception V3
 
 
 Foram gerados três modelos distintos, pois xxxxxx. Por isso a idéia é que o usuário possa escolher o classificador que melhor se adeque aos dados do usuário.
