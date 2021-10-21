@@ -84,11 +84,35 @@ Foram gerados três modelos distintos, pois xxxxxx. Por isso a idéia é que o u
 
 2.3. Métricas principais de avaliação dos modelos
 
-![image](https://user-images.githubusercontent.com/58257963/137534387-6386534d-0bf4-4e51-8595-fa603e9eb976.png)
+![image](https://user-images.githubusercontent.com/58257963/138325027-1f2a630e-6097-4fb4-8d5f-87b28e5ab7ce.png)
+
+No gráfico acima training e validation acurracy, verifica-se que a acurácia de treinamento sobe nas primeiras 15 épocas, e se estabiliza na vigésima (20ª) época, com a acurácia de treinamento de 0.9786 na execução final do modelo na época 64.
+
+Já a acurária de validação tem um comportamento variável até a vigésima (20ª) época, e se estabiliza após a mesma, com a acurácia de validação de 0.9786 na execução final do modelo na época 64.
+
+Uma observação, vista no gráfico é um pico nas épocas 29-30, conforme abaixo, aonde o “val_acurracy” cai de 0.9738 para 0.9145
+
+Epoch 29/200
+749/749 [==============================] - 6s 8ms/step - loss: 0.0969 - accuracy: 0.9660 - val_loss: 0.0759 - val_accuracy: 0.9738
+
+Epoch 30/200
+749/749 [==============================] - 7s 9ms/step - loss: 0.0979 - accuracy: 0.9661 - val_loss: 0.2468 - val_accuracy: 0.9145
+
+![image](https://user-images.githubusercontent.com/58257963/138325169-978231af-bd88-4d5a-b9bd-52c69b8816a4.png)
+
+No gráfico acima, training e validation loss, verifica-se que o loss treinamento desce bruscamente nas primeiras 25 épocas, vindo a se estabilizar entre a 30-35 época, com o loss de treinamento numa linha quase continua, até a execução final do modelo na época 64, com loss: 0.0611.
+
+Já o loss de validação tem um comportamento bem variável até a 30ª época, vindo após isto, se estabilizar numa linha quase continua, até a execução final do modelo na época 64, com loss: 0.0611.
+
+![image](https://user-images.githubusercontent.com/58257963/138325256-02079288-32ab-4947-a128-5945f7f0183d.png)
+
+
 
 ### 3. Resultados
 
-O modelo com a melhor acurácia foi o Deep Learning Modelo Conv2D (A) com 98.29% e o pior foi pre treinado VGG16 Model com 97.45%. Podemos destacar também que o modelo Deep Learning também é eficiente com aplicações tais como: reconhecimento de fala e imagem, processamento de linguagem natural, sistemas de recomendação, dentre outros. Particularmente nesse trabalho, existe a oportunidade de um direcionamento para xxxxxxxxxxxxxxxx.
+O modelo com a melhor acurácia foi o Deep Learning Modelo Conv2D (A) com 98.29% e o pior foi pre treinado VGG16 Model com 97.45%. Podemos destacar também que o modelo Deep Learning também é eficiente com aplicações tais como: reconhecimento de fala e imagem, processamento de linguagem natural, sistemas de recomendação, dentre outros. 
+
+Particularmente nesse trabalho, existe a oportunidade de um direcionamento para xxxxxxxxxxxxxxxx.
 
 ### 4. Conclusões
 
