@@ -67,17 +67,14 @@ Os melhores parâmetros encontrados para o modelo são:
 
 Foram treinados dois modelos distintos, sendo eles:
 
-•	Modelo A 
+•	Modelo Conv2D 
 
 ![image](https://user-images.githubusercontent.com/58257963/137184214-503ab3de-3788-46c7-aa2b-cd16df302fc0.png)
 
-•	Modelo B
+•	Modelo VGG16
 
-![image](https://user-images.githubusercontent.com/58257963/137194205-9f4f1b72-6c8d-4b06-86eb-86881ba54e22.png)
 
-•	Modelo C
-
-Inception V3
+•	Inception V3
 
 
 Foram gerados três modelos distintos, pois xxxxxx. Por isso a idéia é que o usuário possa escolher o classificador que melhor se adeque aos dados do usuário.
