@@ -51,9 +51,9 @@ O balanceamento dos dados e processos para gerar as duas bases tratadas, nesse m
     
 Realizei a criação do Data Augumentation com a finalidade da criação de mais dados aleatórios de acordo com a necessidade futura de testes em outros modelos.
 
-Diferentes modelos foram testados usando os seguintes algoritmos de classificação: Deep Learning, VGG16, e Neural Net.
+Diferentes modelos foram testados usando os seguintes algoritmos de classificação: Deep Learning, VGG16, Inception V3 e Neural Net.
 
-Foram testados dois modelos de Machine Learning para classificação supervisionada (Deep Learning e pre treinado VGG16) sendo adotado o modelo XXXX por apresentar as melhores métricas de avaliação.
+Foram testados dois modelos de Machine Learning para classificação supervisionada (Deep Learning, pre treinado VGG16, Inception V3) sendo adotado o modelo XXXX por apresentar as melhores métricas de avaliação.
 
 2.1. Parâmetros do modelo
 
@@ -75,17 +75,15 @@ Foram treinados dois modelos distintos, sendo eles:
 
 ![image](https://user-images.githubusercontent.com/58257963/137194205-9f4f1b72-6c8d-4b06-86eb-86881ba54e22.png)
 
-Foram gerados dois modelos distintos, pois xxxxxx. Por isso a idéia é que o usuário possa escolher o classificador que melhor se adeque aos dados do usuário.
+•	Modelo C
+
+
+
+Foram gerados três modelos distintos, pois xxxxxx. Por isso a idéia é que o usuário possa escolher o classificador que melhor se adeque aos dados do usuário.
 
 2.3. Métricas principais de avaliação dos modelos
 
 ![image](https://user-images.githubusercontent.com/58257963/137534387-6386534d-0bf4-4e51-8595-fa603e9eb976.png)
-
-•	Acurácia da classificação: 0,9307
-•	Erro da classificação: 0,0693
-•	Precisão: 0,9057
-•	Recall: 0,9600
-
 
 ### 3. Resultados
 
