@@ -73,6 +73,7 @@ Foram treinados dois modelos distintos, sendo eles:
 
 •	Modelo VGG16
 
+![image](https://user-images.githubusercontent.com/58257963/138980731-df213d27-2a5a-48f6-898c-d74d21555272.png)
 
 •	Inception V3
 
