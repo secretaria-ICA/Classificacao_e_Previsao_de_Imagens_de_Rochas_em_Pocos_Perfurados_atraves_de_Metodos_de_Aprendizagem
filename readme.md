@@ -88,7 +88,6 @@ Foram gerados três modelos distintos, pois xxxxxx. Por isso a idéia é que o u
 
 ![image](https://user-images.githubusercontent.com/58257963/138979855-fd9418f2-64d3-4d37-9dcd-1cb775585060.png)
 
-
 •	Conv2D (b) (26/10/2021) – 
 
 - Precisão de treinamento e validação, bem como a perda -
@@ -101,8 +100,11 @@ Foram gerados três modelos distintos, pois xxxxxx. Por isso a idéia é que o u
 
 - Precisão de treinamento e validação, bem como a perda - 
 
+- Matrix de Confusão:
+ 
+- Calculate the confusion matrix and use it to derive the precision, sensitivity and specificitye --- > acc: 
 
-
+- Matrix de Confusão com mapa de calor (Usando Data augumentation):
 
 ### 3. Resultados
 
