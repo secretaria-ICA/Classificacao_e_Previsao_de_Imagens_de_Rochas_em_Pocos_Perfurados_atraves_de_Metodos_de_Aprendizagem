@@ -130,6 +130,16 @@ Já o loss de validação tem um comportamento bem variável até a 30ª época,
 - Recall: que é a capacidade de encontrar todas as amostras positivas. Somente as classes andesite, quartzite e schist apresentaram, respectivamente, uma variação de 0.03, 0.03 e 0.03%.
 -f1-Score: média harmônica de precisão e recall.
 
+- Matrix de Confusão:
+
+![image](https://user-images.githubusercontent.com/58257963/138979372-5e93c7ad-cf6e-4c41-8406-9f0cdf08e371.png)
+ 
+- Calculate the confusion matrix and use it to derive the precision, sensitivity and specificitye --- > acc: 0.3258
+
+- Matrix de Confusão com mapa de calor (Usando Data augumentation):
+
+![image](https://user-images.githubusercontent.com/58257963/138979415-97277119-4586-49f0-810b-e9d8d19c3677.png)
+
 
 
 O modelo com a melhor acurácia foi o Deep Learning Modelo Conv2D (A) com 98.29% e o pior foi pre treinado VGG16 Model com 97.45%. Podemos destacar também que o modelo Deep Learning também é eficiente com aplicações tais como: reconhecimento de fala e imagem, processamento de linguagem natural, sistemas de recomendação, dentre outros. 
