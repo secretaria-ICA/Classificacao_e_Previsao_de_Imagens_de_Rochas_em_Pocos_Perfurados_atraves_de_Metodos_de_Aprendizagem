@@ -110,9 +110,27 @@ Já o loss de validação tem um comportamento bem variável até a 30ª época,
 
 ![image](https://user-images.githubusercontent.com/58257963/138325256-02079288-32ab-4947-a128-5945f7f0183d.png)
 
+•	VGG16 (a)
+
+- Precisão de treinamento e validação, bem como a perda - 
+
+
 
 
 ### 3. Resultados
+
+- Conv2D (b) – 
+
+- Relatório de classificação:
+
+![image](https://user-images.githubusercontent.com/58257963/138979188-ddf453d3-5808-42c7-b89f-4910fc3397ed.png)
+
+ Podemos resumir o desempenho do nosso classificador da seguinte forma: 
+- Precision: que é a capacidade de encontrar somente as amostras relevantes. A maioria das amostras estão com o percentual perto de 1.00. Somente as classes andesite e gneiss apresentaram uma leve variação, respectivamente, de 0.03% e 0.03%.
+- Recall: que é a capacidade de encontrar todas as amostras positivas. Somente as classes andesite, quartzite e schist apresentaram, respectivamente, uma variação de 0.03, 0.03 e 0.03%.
+-f1-Score: média harmônica de precisão e recall.
+
+
 
 O modelo com a melhor acurácia foi o Deep Learning Modelo Conv2D (A) com 98.29% e o pior foi pre treinado VGG16 Model com 97.45%. Podemos destacar também que o modelo Deep Learning também é eficiente com aplicações tais como: reconhecimento de fala e imagem, processamento de linguagem natural, sistemas de recomendação, dentre outros. 
 
