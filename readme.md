@@ -81,7 +81,14 @@ Foram gerados três modelos distintos, pois xxxxxx. Por isso a idéia é que o u
 
 2.3. Métricas principais de avaliação dos modelos
 
-![image](https://user-images.githubusercontent.com/58257963/138325027-1f2a630e-6097-4fb4-8d5f-87b28e5ab7ce.png)
+![image](https://user-images.githubusercontent.com/58257963/138978346-54b32979-5864-46fe-b74c-4b24c7bf9605.png)
+
+•	Conv2D (g)
+
+- Precisão de treinamento e validação, bem como a perda - 
+
+![image](https://user-images.githubusercontent.com/58257963/138978530-954499b9-849a-4540-8788-02213bf97e45.png)
+
 
 No gráfico acima training e validation acurracy, verifica-se que a acurácia de treinamento sobe nas primeiras 15 épocas, e se estabiliza na vigésima (20ª) época, com a acurácia de treinamento de 0.9786 na execução final do modelo na época 64.
 
