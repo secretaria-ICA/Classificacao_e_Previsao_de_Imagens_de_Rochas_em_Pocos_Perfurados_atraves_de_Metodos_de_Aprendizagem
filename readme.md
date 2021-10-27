@@ -105,6 +105,9 @@ Foram gerados três modelos distintos, pois xxxxxx. Por isso a idéia é que o u
 
 ### 3. Resultados
 
+- Conv2D (a) – 
+
+
 - Conv2D (b) – 
 
 - Relatório de classificação:
