@@ -115,8 +115,30 @@ Foram gerados três modelos distintos, pois xxxxxx. Por isso a idéia é que o u
 - Conv2D (a) – 
 
 - Relatório de classificação:
+
+Podemos resumir o desempenho do nosso classificador da seguinte forma: 
+- Precision: que é a capacidade de encontrar somente as amostras relevantes. A maioria das amostras estão com o percentual perto de 1.00. Somente a classe andesite apresentou uma leve variação, respectivamente, de 0.04%.
+- Recall: que é a capacidade de encontrar todas as amostras positivas. Somente as classes andesite e quartzite apresentaram, respectivamente, uma variação de 0.04% e 0.03%.
+-f1-Score: média harmônica de precisão e recall.
+
+![image](https://user-images.githubusercontent.com/58257963/143924268-8db1bf90-3c2d-4045-92bf-6c1e1c87ff2a.png)
+
 - Matrix de Confusão:
-- Calculate the confusion matrix and use it to derive the precision, sensitivity and specificitye --- > acc: 0.3308
+
+![image](https://user-images.githubusercontent.com/58257963/143924317-d1b558bc-45b7-45d0-b320-6a60125675b8.png)
+
+- Calculate the confusion matrix and use it to derive the precision, sensitivity and specificitye --- 
+
+    Accuracy_score: 0.9833
+
+    Precision:
+
+        [0.95881226 0.97810945 1.         0.98842105 0.98192771 0.99408284]
+
+    Recall or Sensitivity:
+
+        [0.97468354 0.99493927 1.         0.97104447 0.98291457 0.97674419]
+
 
 - Matrix de Confusão com mapa de calor (Usando Data augumentation):
 
