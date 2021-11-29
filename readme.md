@@ -144,6 +144,8 @@ Podemos resumir o desempenho do nosso classificador da seguinte forma:
 - 
 ![image](https://user-images.githubusercontent.com/58257963/143924716-194c050e-18e2-4f6c-8d60-f02cf5507699.png)
 
+Com a técnica de data augumentation, ou seja, aumento dos dados de teste para realização das predições, houve piora na classe schist, em relação aos - Conv2D (b) e (c), ambos abaixo, que já apresentavam na Matriz de confusão (pura) um “erro” com relação a classificação das imagens das respectivas rochas. 
+
 - Conv2D (b) – 
 
 - Relatório de classificação:
