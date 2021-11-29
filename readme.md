@@ -141,6 +141,8 @@ Podemos resumir o desempenho do nosso classificador da seguinte forma:
 
 
 - Matrix de Confusão com mapa de calor (Usando Data augumentation):
+- 
+![image](https://user-images.githubusercontent.com/58257963/143924716-194c050e-18e2-4f6c-8d60-f02cf5507699.png)
 
 - Conv2D (b) – 
 
