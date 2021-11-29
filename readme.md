@@ -82,13 +82,17 @@ Foram gerados três modelos distintos, pois xxxxxx. Por isso a idéia é que o u
 
 2.3. Métricas principais de avaliação dos modelos
 
-![image](https://user-images.githubusercontent.com/58257963/138978346-54b32979-5864-46fe-b74c-4b24c7bf9605.png)
+![image](https://user-images.githubusercontent.com/58257963/143921190-eb309c34-d8fc-4a3c-8450-a96ba1faa952.png)
 
-•	Conv2D (a) (19/10/2021) – 
+•	Conv2D (a) (26/11/2021) – 
+
+![image](https://user-images.githubusercontent.com/58257963/143920858-0f6f8803-eaee-47c7-8903-b32baf7b104e.png)
+
+•	Conv2D (b) (19/10/2021) – 
 
 ![image](https://user-images.githubusercontent.com/58257963/138979855-fd9418f2-64d3-4d37-9dcd-1cb775585060.png)
 
-•	Conv2D (b) (26/10/2021) – 
+•	Conv2D (c) (26/10/2021) – 
 
 - Precisão de treinamento e validação, bem como a perda -
 
@@ -111,6 +115,14 @@ Foram gerados três modelos distintos, pois xxxxxx. Por isso a idéia é que o u
 - Conv2D (a) – 
 
 - Relatório de classificação:
+- Matrix de Confusão:
+- Calculate the confusion matrix and use it to derive the precision, sensitivity and specificitye --- > acc: 0.3308
+
+- Matrix de Confusão com mapa de calor (Usando Data augumentation):
+
+- Conv2D (b) – 
+
+- Relatório de classificação:
 
 Podemos resumir o desempenho do nosso classificador da seguinte forma: 
 - Precision: que é a capacidade de encontrar somente as amostras relevantes. A maioria das amostras estão com o percentual perto de 1.00. Somente a classe andesite apresentou uma leve variação, respectivamente, de 0.03%.
@@ -129,7 +141,7 @@ Podemos resumir o desempenho do nosso classificador da seguinte forma:
 
 ![image](https://user-images.githubusercontent.com/58257963/138981388-a39e832b-e3db-4475-bbd3-f1d35cb43648.png)
 
-- Conv2D (b) – 
+- Conv2D (c) – 
 
 - Relatório de classificação:
 
