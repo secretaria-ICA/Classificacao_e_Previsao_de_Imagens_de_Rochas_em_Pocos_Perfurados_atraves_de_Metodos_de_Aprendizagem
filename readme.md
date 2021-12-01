@@ -39,7 +39,7 @@ O uso de deep learning para o processo de orçamentação apresenta uma série d
 
 Este trabalho se propõe a classificar as rochas através de suas imagens adquiridas durante as atividades geológicas (perfuração), utilizando uma técnica de Deep Learning e modelos pré treinados. 
 
-Utilizamos uma base do Kaggle (https://www.kaggle.com/tanyadayanand/geological-image-similarity/metadata) de setembro de 2020 para iniciarmos esse estudo, embora os dados estejam em inglês, os conceitos básicos são os mesmos. O trabalho envolveu a análise de XXX modelos diferentes, em todos eles foram considerados as etapas: análise exploratória de dados, missing values e reavaliação dos atributos pelo peso.
+Utilizamos uma base do Kaggle (https://www.kaggle.com/tanyadayanand/geological-image-similarity/metadata) de setembro de 2020 para iniciarmos esse estudo, embora os dados estejam em inglês, os conceitos básicos são os mesmos. O trabalho envolveu a análise de modelos diferentes, em todos eles foram considerados as etapas: análise exploratória de dados, missing values e reavaliação dos atributos pelo peso.
 
 ### 2. Modelagem
 
@@ -53,7 +53,7 @@ Realizei a criação do Data Augumentation com a finalidade da criação de mais
 
 Diferentes modelos foram testados usando os seguintes algoritmos de classificação: Deep Learning, VGG16, Inception V3 e Neural Net.
 
-Foram testados dois modelos de Machine Learning para classificação supervisionada (Deep Learning, pre treinado VGG16, Inception V3) sendo adotado o modelo XXXX por apresentar as melhores métricas de avaliação.
+Foram testados dois modelos de Machine Learning para classificação supervisionada (Deep Learning, pre treinado VGG16, Inception V3) sendo adotado o modelo Deep Learning por apresentar as melhores métricas de avaliação.
 
 2.1. Parâmetros do modelo
 
