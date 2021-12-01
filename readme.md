@@ -106,11 +106,15 @@ Foram gerados três modelos distintos, pois xxxxxx. Por isso a idéia é que o u
 
 - Precisão de treinamento e validação, bem como a perda - 
 
-- Matrix de Confusão:
- 
-- Calculate the confusion matrix and use it to derive the precision, sensitivity and specificitye --- > acc: 
+![image](https://user-images.githubusercontent.com/58257963/144241795-917fc689-e0bd-4b43-9abb-11509c4ac609.png)
 
+- Matrix de Confusão:
+
+![image](https://user-images.githubusercontent.com/58257963/144241952-77b69a68-f711-4075-9692-e37a3764adcc.png)
+ 
 - Matrix de Confusão com mapa de calor (Usando Data augumentation):
+
+![image](https://user-images.githubusercontent.com/58257963/144242134-df4d9b59-288c-473f-a8ac-060d277600bc.png)
 
 ### 3. Resultados
 
