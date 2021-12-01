@@ -152,6 +152,8 @@ Podemos resumir o desempenho do nosso classificador da seguinte forma:
 
 Com a técnica de data augumentation, ou seja, aumento dos dados de teste para realização das predições, houve piora na classe schist, em relação aos - Conv2D (b) e (c), ambos abaixo, que já apresentavam na Matriz de confusão (pura) um “erro” com relação a classificação das imagens das respectivas rochas. 
 
+
+
 - Conv2D (b) – 
 
 - Relatório de classificação:
@@ -167,11 +169,13 @@ Podemos resumir o desempenho do nosso classificador da seguinte forma:
 
 ![image](https://user-images.githubusercontent.com/58257963/138981288-2bebd90a-9314-4ece-9790-df753f4ff806.png)
 
-- Calculate the confusion matrix and use it to derive the precision, sensitivity and specificitye --- > acc: 0.3308
+- Calculate the confusion matrix and use it to derive the precision, sensitivity and specificitye --- > 
 
 - Matrix de Confusão com mapa de calor (Usando Data augumentation):
 
 ![image](https://user-images.githubusercontent.com/58257963/138981388-a39e832b-e3db-4475-bbd3-f1d35cb43648.png)
+
+
 
 - Conv2D (c) – 
 
@@ -188,7 +192,7 @@ Podemos resumir o desempenho do nosso classificador da seguinte forma:
 
 ![image](https://user-images.githubusercontent.com/58257963/138979372-5e93c7ad-cf6e-4c41-8406-9f0cdf08e371.png)
  
-- Calculate the confusion matrix and use it to derive the precision, sensitivity and specificitye --- > acc: 0.3258
+- Calculate the confusion matrix and use it to derive the precision, sensitivity and specificitye --- > 
 
 - Matrix de Confusão com mapa de calor (Usando Data augumentation):
 
@@ -198,7 +202,7 @@ Podemos resumir o desempenho do nosso classificador da seguinte forma:
 
 O modelo com a melhor acurácia foi o Deep Learning Modelo Conv2D (A) com 98.33% e o pior foi pre treinado VGG16 Model com 97.38%. Podemos destacar também que o modelo Deep Learning também é eficiente com aplicações tais como: reconhecimento de fala e imagem, processamento de linguagem natural, sistemas de recomendação, dentre outros.
 
-Particularmente nesse trabalho, existe a oportunidade de um direcionamento para xxxxxxxxxxxxxxxx.
+Particularmente nesse trabalho, existe a oportunidade de um direcionamento para todas os projetos de imagens de geologia no ambiente da companhia.
 
 ### 4. Conclusões
 
