@@ -19,8 +19,8 @@ Trabalho apresentado ao curso [BI MASTER](https://ica.puc-rio.ai/bi-master) como
 
 <!-- trocar o texto abaixo pelo resumo do trabalho, em português -->
 
-Uma empresa de pesquisa geológica deseja criar uma ferramenta para identificar e classificar os dados de suas imagens. Esta ferramenta possuirá uma capacidade de pesquisa em que um analista fornece uma imagem de interesse e é apresentada a outras imagens com carater de classificatório das mesmas.
-A tarefa é criar o componente de deeep learning para este aplicativo de identificação e classificação de imagem. O modelo deve retornar a classificação ea predição das imagens com base nas imagens de entrada.
+Uma empresa de pesquisa geológica deseja criar uma ferramenta para identificar e classificar os dados de suas imagens. Esta ferramenta possuirá uma capacidade de pesquisa em que um analista fornece uma imagem de interesse e é apresentada a outras imagens com carater classificatório das mesmas.
+A tarefa é criar o componente de deep learning para este aplicativo de identificação e classificação de imagem. O modelo deve retornar a classificação e a predição das imagens com base nas imagens de entrada.
 
 
 ### Abstract <!-- Opcional! Caso não aplicável, remover esta seção -->
@@ -37,7 +37,7 @@ Esta monografia visa apresentar a aplicação de métodos de aprendizado supervi
 
 O uso de deep learning para o processo de orçamentação apresenta uma série de vantagens, entre elas, a redução de HH envolvido, melhoria no grau de assertividade, celeridade na resposta e possibilidade de testar diferentes cenários de projeto em menor tempo. 
 
-Este trabalho se propõe a classificar as rochas através de suas imagens adquiridas durante as atividades geológicas (perfuração), utilizando uma técnica de Deep Learning e modelos pré treinados. 
+Este trabalho se propõe a classificar as rochas através de suas imagens adquiridas durante as atividades geológicas (perfuração), utilizando técnicas de Deep Learning e modelos pré treinados. 
 
 Utilizamos uma base do Kaggle (https://www.kaggle.com/tanyadayanand/geological-image-similarity/metadata) de setembro de 2020 para iniciarmos esse estudo, embora os dados estejam em inglês, os conceitos básicos são os mesmos. O trabalho envolveu a análise de modelos diferentes, em todos eles foram considerados as etapas: análise exploratória de dados, missing values e reavaliação dos atributos pelo peso.
 
@@ -45,15 +45,15 @@ Utilizamos uma base do Kaggle (https://www.kaggle.com/tanyadayanand/geological-i
 
 Primeiramente foi feita a análise dos dados para entender quais atributos manter no modelo, em seguida foi criado um dataframe (data_df) com a divisão entre as imagens (path) e as identificações das rochas (labels).
     
-Após isso, as imagens foram convertidas de 28 por 28 para 32 por 32 para que possam abranger só modelos utilizados. O rótulo foi associado a uma rocha. Houve a conversão dos dados de imagens e rótulos em matrizes numpy, enquanto dimensiona os pixels. Os atributos dos rótulos foram codificados em tags (binarias) e, além disso foi verificado quais atributos apresentaram missing values.
+Após isso, as imagens foram convertidas de 28 por 28 para 32 por 32 para que possam abranger só modelos utilizados. O rótulo foi associado a uma rocha. Houve a conversão dos dados de imagens e rótulos em matrizes numpy, enquanto dimensiona os pixels. Os atributos dos rótulos foram codificados em tags (binárias) e, além disso, foi verificado quais atributos apresentaram missing values.
 
 O balanceamento dos dados e processos para gerar as duas bases tratadas, nesse momento foi inserida a funcionalidade de Split Data para gerar as duas bases, a de treino (0.8 de partição) e a de teste (0.2 de partição). A seguir, foi novamente realizado esse processo para gerar a base de validação.
     
 Realizei a criação do Data Augumentation com a finalidade da criação de mais dados aleatórios de acordo com a necessidade futura de testes em outros modelos.
 
-Diferentes modelos foram testados usando os seguintes algoritmos de classificação: Deep Learning, VGG16, Inception V3 e Neural Net.
+Diferentes modelos foram testados usando as seguintes arquiteturas de Redes Neurais, Shallow e Deep Learning: Convolucionais, VGG16, Inception V3 e Neural Net (MLP).
 
-Foram testados dois modelos de Machine Learning para classificação supervisionada (Deep Learning, pre treinado VGG16, Inception V3) sendo adotado o modelo Deep Learning por apresentar as melhores métricas de avaliação.
+Foram testados três modelos de Machine Learning para classificação supervisionada (Convolucionais, VGG16 pré treinado, Inception V3) sendo adotado o modelo Convolucional por apresentar as melhores métricas de avaliação.
 
 2.1. Parâmetros do modelo
 
@@ -129,7 +129,7 @@ Podemos resumir o desempenho do nosso classificador da seguinte forma:
 
 ![image](https://user-images.githubusercontent.com/58257963/143924268-8db1bf90-3c2d-4045-92bf-6c1e1c87ff2a.png)
 
-- Matrix de Confusão:
+- Matriz de Confusão:
 
 ![image](https://user-images.githubusercontent.com/58257963/143924317-d1b558bc-45b7-45d0-b320-6a60125675b8.png)
 
