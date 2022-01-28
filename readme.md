@@ -84,7 +84,8 @@ Foram gerados três modelos distintos, pois xxxxxx. Por isso a idéia é que o u
 
 •	Conv2D (a) (26/11/2021) – 
 
-![image](https://user-images.githubusercontent.com/58257963/143920858-0f6f8803-eaee-47c7-8903-b32baf7b104e.png)
+![image](https://user-images.githubusercontent.com/58257963/151558482-474e4a24-4264-47a4-9e4a-7584aa86c87d.png)
+
 
 2.3.2. Modelo pre-trained VGG16 Model 
 
@@ -94,15 +95,18 @@ Foram gerados três modelos distintos, pois xxxxxx. Por isso a idéia é que o u
 
 - Precisão de treinamento e validação, bem como a perda - 
 
+![image](https://user-images.githubusercontent.com/58257963/151558828-13a7db9b-10d1-4bae-a4e7-81b0100b4672.png)
 
 
 - Matrix de Confusão:
 
-![image](https://user-images.githubusercontent.com/58257963/144241952-77b69a68-f711-4075-9692-e37a3764adcc.png)
+![image](https://user-images.githubusercontent.com/58257963/151558968-62ecacee-e654-47f9-ab7c-5f315df92c1e.png)
+
  
 - Matrix de Confusão com mapa de calor (Usando Data augumentation):
 
-![image](https://user-images.githubusercontent.com/58257963/144242134-df4d9b59-288c-473f-a8ac-060d277600bc.png)
+![image](https://user-images.githubusercontent.com/58257963/151559090-3d49f3e9-315d-4a7e-899f-afc68a86fcc8.png)
+
 
 ### 3. Resultados
 
