@@ -77,7 +77,7 @@ Foram gerados três modelos distintos, pois xxxxxx. Por isso a idéia é que o u
 
 2.3. Métricas principais de avaliação dos modelos
 
-![image](https://user-images.githubusercontent.com/58257963/143921190-eb309c34-d8fc-4a3c-8450-a96ba1faa952.png)
+![image](https://user-images.githubusercontent.com/58257963/151561900-0f9567a0-3053-44b8-adb2-7fe0e03a69ce.png)
 
 •	Conv2D (a) (26/11/2021) – 
 
