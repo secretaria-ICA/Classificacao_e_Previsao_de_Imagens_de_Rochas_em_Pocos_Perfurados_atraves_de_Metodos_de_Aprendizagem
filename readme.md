@@ -71,10 +71,7 @@ Foram treinados dois modelos distintos, sendo eles:
 
 ![image](https://user-images.githubusercontent.com/58257963/151557815-0f2d248a-a855-41c3-9f01-8f7709e90970.png)
 
-•	Modelo VGG16
-
-•	Inception V3
-
+•	Modelo VGG16 e Inception V3
 
 Foram gerados três modelos distintos, pois xxxxxx. Por isso a idéia é que o usuário possa escolher o classificador que melhor se adeque aos dados do usuário.
 
@@ -86,7 +83,6 @@ Foram gerados três modelos distintos, pois xxxxxx. Por isso a idéia é que o u
 
 ![image](https://user-images.githubusercontent.com/58257963/151558482-474e4a24-4264-47a4-9e4a-7584aa86c87d.png)
 
-
 2.3.2. Modelo pre-trained VGG16 Model 
 
 ![image](https://user-images.githubusercontent.com/58257963/144240578-b7b6342c-ec64-438e-b18f-b0971861a95d.png)
@@ -97,16 +93,13 @@ Foram gerados três modelos distintos, pois xxxxxx. Por isso a idéia é que o u
 
 ![image](https://user-images.githubusercontent.com/58257963/151558828-13a7db9b-10d1-4bae-a4e7-81b0100b4672.png)
 
-
 - Matrix de Confusão:
 
 ![image](https://user-images.githubusercontent.com/58257963/151558968-62ecacee-e654-47f9-ab7c-5f315df92c1e.png)
-
  
 - Matrix de Confusão com mapa de calor (Usando Data augumentation):
 
 ![image](https://user-images.githubusercontent.com/58257963/151559090-3d49f3e9-315d-4a7e-899f-afc68a86fcc8.png)
-
 
 ### 3. Resultados
 
@@ -125,7 +118,6 @@ Podemos resumir o desempenho do nosso classificador da seguinte forma:
 
 ![image](https://user-images.githubusercontent.com/58257963/151560887-84d0f764-955f-4741-9648-5a03e284ec16.png)
 
-
 - Calculate the confusion matrix and use it to derive the precision, sensitivity and specificitye --- 
 
     Accuracy_score: 0.9833
@@ -142,7 +134,6 @@ Podemos resumir o desempenho do nosso classificador da seguinte forma:
 - Matrix de Confusão com mapa de calor (Usando Data augumentation):
 
 ![image](https://user-images.githubusercontent.com/58257963/151561040-4e7c818b-ce0c-46d8-904a-6b7e232cb8e7.png)
-
 
 Com a técnica de data augumentation, ou seja, aumento dos dados de teste para realização das predições, houve piora na classe schist, em relação aos - Conv2D (b) e (c), ambos abaixo, que já apresentavam na Matriz de confusão (pura) um “erro” com relação a classificação das imagens das respectivas rochas. 
 
