@@ -69,7 +69,7 @@ Foram treinados dois modelos distintos, sendo eles:
 
 •	Modelo Conv2D 
 
-![image](https://user-images.githubusercontent.com/58257963/137184214-503ab3de-3788-46c7-aa2b-cd16df302fc0.png)
+![image](https://user-images.githubusercontent.com/58257963/151557815-0f2d248a-a855-41c3-9f01-8f7709e90970.png)
 
 •	Modelo VGG16
 
@@ -94,7 +94,7 @@ Foram gerados três modelos distintos, pois xxxxxx. Por isso a idéia é que o u
 
 - Precisão de treinamento e validação, bem como a perda - 
 
-![image](https://user-images.githubusercontent.com/58257963/144241795-917fc689-e0bd-4b43-9abb-11509c4ac609.png)
+
 
 - Matrix de Confusão:
 
