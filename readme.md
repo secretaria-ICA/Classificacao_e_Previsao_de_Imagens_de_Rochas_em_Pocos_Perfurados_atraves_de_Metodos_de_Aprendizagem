@@ -85,7 +85,7 @@ Foram gerados três modelos distintos, pois xxxxxx. Por isso a idéia é que o u
 
 2.3.2. Modelo pre-trained VGG16 Model 
 
-![image](https://user-images.githubusercontent.com/58257963/144240578-b7b6342c-ec64-438e-b18f-b0971861a95d.png)
+![image](https://user-images.githubusercontent.com/58257963/151562206-b0124853-ade6-472e-a371-9b1ee2d796a0.png)
 
 •	VGG16 (a)
 
