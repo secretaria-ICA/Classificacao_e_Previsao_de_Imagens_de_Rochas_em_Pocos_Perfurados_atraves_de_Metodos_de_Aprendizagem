@@ -137,14 +137,11 @@ Podemos resumir o desempenho do nosso classificador da seguinte forma:
 
 Com a técnica de data augumentation, ou seja, aumento dos dados de teste para realização das predições, houve piora na classe schist, em relação aos - Conv2D (b) e (c), ambos abaixo, que já apresentavam na Matriz de confusão (pura) um “erro” com relação a classificação das imagens das respectivas rochas. 
 
+### 4. Conclusões
 
 O modelo com a melhor acurácia foi o Deep Learning Modelo Conv2D (A) com 98.33% e o pior foi pre treinado VGG16 Model com 97.38%. Podemos destacar também que o modelo Deep Learning também é eficiente com aplicações tais como: reconhecimento de fala e imagem, processamento de linguagem natural, sistemas de recomendação, dentre outros.
 
 Particularmente nesse trabalho, existe a oportunidade de um direcionamento para todas os projetos de imagens de geologia no ambiente da companhia.
-
-### 4. Conclusões
-
-
 
 ---
 
