@@ -73,8 +73,6 @@ Foram treinados dois modelos distintos, sendo eles:
 
 •	Modelo VGG16
 
-![image](https://user-images.githubusercontent.com/58257963/138980731-df213d27-2a5a-48f6-898c-d74d21555272.png)
-
 •	Inception V3
 
 
@@ -87,16 +85,6 @@ Foram gerados três modelos distintos, pois xxxxxx. Por isso a idéia é que o u
 •	Conv2D (a) (26/11/2021) – 
 
 ![image](https://user-images.githubusercontent.com/58257963/143920858-0f6f8803-eaee-47c7-8903-b32baf7b104e.png)
-
-•	Conv2D (b) (19/10/2021) – 
-
-![image](https://user-images.githubusercontent.com/58257963/138979855-fd9418f2-64d3-4d37-9dcd-1cb775585060.png)
-
-•	Conv2D (c) (26/10/2021) – 
-
-- Precisão de treinamento e validação, bem como a perda -
-
-![image](https://user-images.githubusercontent.com/58257963/138979611-bbebfb9c-0010-4dae-a21b-8304016f4442.png)
 
 2.3.2. Modelo pre-trained VGG16 Model 
 
@@ -151,53 +139,6 @@ Podemos resumir o desempenho do nosso classificador da seguinte forma:
 ![image](https://user-images.githubusercontent.com/58257963/143924716-194c050e-18e2-4f6c-8d60-f02cf5507699.png)
 
 Com a técnica de data augumentation, ou seja, aumento dos dados de teste para realização das predições, houve piora na classe schist, em relação aos - Conv2D (b) e (c), ambos abaixo, que já apresentavam na Matriz de confusão (pura) um “erro” com relação a classificação das imagens das respectivas rochas. 
-
-
-
-- Conv2D (b) – 
-
-- Relatório de classificação:
-
-Podemos resumir o desempenho do nosso classificador da seguinte forma: 
-- Precision: que é a capacidade de encontrar somente as amostras relevantes. A maioria das amostras estão com o percentual perto de 1.00. Somente a classe andesite apresentou uma leve variação, respectivamente, de 0.03%.
-- Recall: que é a capacidade de encontrar todas as amostras positivas. Somente as classes andesite e quartzite apresentaram, respectivamente, uma variação de 0.04% e 0.03%.
-
-![image](https://user-images.githubusercontent.com/58257963/138981188-92f68aca-5bd1-4903-a67b-92b1e8be8e0c.png)
-
-
-- Matrix de Confusão:
-
-![image](https://user-images.githubusercontent.com/58257963/138981288-2bebd90a-9314-4ece-9790-df753f4ff806.png)
-
-- Calculate the confusion matrix and use it to derive the precision, sensitivity and specificitye --- > 
-
-- Matrix de Confusão com mapa de calor (Usando Data augumentation):
-
-![image](https://user-images.githubusercontent.com/58257963/138981388-a39e832b-e3db-4475-bbd3-f1d35cb43648.png)
-
-
-
-- Conv2D (c) – 
-
-- Relatório de classificação:
-
-![image](https://user-images.githubusercontent.com/58257963/138979188-ddf453d3-5808-42c7-b89f-4910fc3397ed.png)
-
- Podemos resumir o desempenho do nosso classificador da seguinte forma: 
-- Precision: que é a capacidade de encontrar somente as amostras relevantes. A maioria das amostras estão com o percentual perto de 1.00. Somente as classes andesite e gneiss apresentaram uma leve variação, respectivamente, de 0.03% e 0.03%.
-- Recall: que é a capacidade de encontrar todas as amostras positivas. Somente as classes andesite, quartzite e schist apresentaram, respectivamente, uma variação de 0.03, 0.03 e 0.03%.
--f1-Score: média harmônica de precisão e recall.
-
-- Matrix de Confusão:
-
-![image](https://user-images.githubusercontent.com/58257963/138979372-5e93c7ad-cf6e-4c41-8406-9f0cdf08e371.png)
- 
-- Calculate the confusion matrix and use it to derive the precision, sensitivity and specificitye --- > 
-
-- Matrix de Confusão com mapa de calor (Usando Data augumentation):
-
-![image](https://user-images.githubusercontent.com/58257963/138979415-97277119-4586-49f0-810b-e9d8d19c3677.png)
-
 
 
 O modelo com a melhor acurácia foi o Deep Learning Modelo Conv2D (A) com 98.33% e o pior foi pre treinado VGG16 Model com 97.38%. Podemos destacar também que o modelo Deep Learning também é eficiente com aplicações tais como: reconhecimento de fala e imagem, processamento de linguagem natural, sistemas de recomendação, dentre outros.
