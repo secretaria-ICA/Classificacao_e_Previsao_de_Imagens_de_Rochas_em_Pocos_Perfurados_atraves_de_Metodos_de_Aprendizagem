@@ -119,11 +119,12 @@ Podemos resumir o desempenho do nosso classificador da seguinte forma:
 - Recall: que é a capacidade de encontrar todas as amostras positivas. Somente as classes andesite e quartzite apresentaram, respectivamente, uma variação de 0.04% e 0.03%.
 -f1-Score: média harmônica de precisão e recall.
 
-![image](https://user-images.githubusercontent.com/58257963/143924268-8db1bf90-3c2d-4045-92bf-6c1e1c87ff2a.png)
+![image](https://user-images.githubusercontent.com/58257963/151560777-b2380aa1-c29c-4477-86db-37a9286524d0.png)
 
 - Matrix de Confusão:
 
-![image](https://user-images.githubusercontent.com/58257963/143924317-d1b558bc-45b7-45d0-b320-6a60125675b8.png)
+![image](https://user-images.githubusercontent.com/58257963/151560887-84d0f764-955f-4741-9648-5a03e284ec16.png)
+
 
 - Calculate the confusion matrix and use it to derive the precision, sensitivity and specificitye --- 
 
@@ -139,8 +140,9 @@ Podemos resumir o desempenho do nosso classificador da seguinte forma:
 
 
 - Matrix de Confusão com mapa de calor (Usando Data augumentation):
-- 
-![image](https://user-images.githubusercontent.com/58257963/143924716-194c050e-18e2-4f6c-8d60-f02cf5507699.png)
+
+![image](https://user-images.githubusercontent.com/58257963/151561040-4e7c818b-ce0c-46d8-904a-6b7e232cb8e7.png)
+
 
 Com a técnica de data augumentation, ou seja, aumento dos dados de teste para realização das predições, houve piora na classe schist, em relação aos - Conv2D (b) e (c), ambos abaixo, que já apresentavam na Matriz de confusão (pura) um “erro” com relação a classificação das imagens das respectivas rochas. 
 
