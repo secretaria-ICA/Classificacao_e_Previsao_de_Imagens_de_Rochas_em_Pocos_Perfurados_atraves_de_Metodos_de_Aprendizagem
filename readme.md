@@ -114,7 +114,7 @@ Podemos resumir o desempenho do nosso classificador da seguinte forma:
 
 - Matriz de Confusão:
 
-![image](https://user-images.githubusercontent.com/58257963/151560887-84d0f764-955f-4741-9648-5a03e284ec16.png)
+![image](https://github.com/fabiobasson/Bi-Master/blob/main/img/result%20matrix%20confusao.png)
 
 - Calculate the confusion matrix and use it to derive the precision, sensitivity and specificitye --- 
 
