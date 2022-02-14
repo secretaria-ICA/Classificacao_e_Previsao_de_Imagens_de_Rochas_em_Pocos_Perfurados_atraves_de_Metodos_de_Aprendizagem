@@ -67,7 +67,7 @@ Foram treinados dois modelos distintos, sendo eles:
 
 •	Modelo Conv2D 
 
-![image](https://user-images.githubusercontent.com/58257963/151557815-0f2d248a-a855-41c3-9f01-8f7709e90970.png)
+![image](https://github.com/fabiobasson/Bi-Master/blob/main/img/modelo%20conv2d.png)
 
 •	Modelo VGG16 e Inception V3
 
@@ -75,11 +75,11 @@ Foram gerados três modelos distintos, pois xxxxxx. Por isso a idéia é que o u
 
 2.3. Métricas principais de avaliação dos modelos
 
-![image](https://user-images.githubusercontent.com/58257963/151561900-0f9567a0-3053-44b8-adb2-7fe0e03a69ce.png)
+![image](https://github.com/fabiobasson/Bi-Master/blob/main/img/metrica%20principal.png)
 
 •	Conv2D (a) (26/11/2021) – 
 
-![image](https://user-images.githubusercontent.com/58257963/151558482-474e4a24-4264-47a4-9e4a-7584aa86c87d.png)
+![image](https://github.com/fabiobasson/Bi-Master/blob/main/img/conv2d%201.png)
 
 2.3.2. Modelo pre-trained VGG16 Model 
 
