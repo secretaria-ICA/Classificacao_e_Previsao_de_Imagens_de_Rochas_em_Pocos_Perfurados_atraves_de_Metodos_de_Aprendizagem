@@ -83,21 +83,21 @@ Foram gerados três modelos distintos, pois xxxxxx. Por isso a idéia é que o u
 
 2.3.2. Modelo pre-trained VGG16 Model 
 
-![image](https://user-images.githubusercontent.com/58257963/151562206-b0124853-ade6-472e-a371-9b1ee2d796a0.png)
+![image](https://github.com/fabiobasson/Bi-Master/blob/main/img/modelo%20pre%20treinado%20Vgg16.png)
 
 •	VGG16 (a)
 
 - Precisão de treinamento e validação, bem como a perda - 
 
-![image](https://user-images.githubusercontent.com/58257963/151558828-13a7db9b-10d1-4bae-a4e7-81b0100b4672.png)
+![image](https://github.com/fabiobasson/Bi-Master/blob/main/img/vgg16%20a%201.png)
 
 - Matrix de Confusão:
 
-![image](https://user-images.githubusercontent.com/58257963/151558968-62ecacee-e654-47f9-ab7c-5f315df92c1e.png)
+![image](https://github.com/fabiobasson/Bi-Master/blob/main/img/matrix%20confusao%20vgg16.png)
  
 - Matrix de Confusão com mapa de calor (Usando Data augumentation):
 
-![image](https://user-images.githubusercontent.com/58257963/151559090-3d49f3e9-315d-4a7e-899f-afc68a86fcc8.png)
+![image](https://github.com/fabiobasson/Bi-Master/blob/main/img/mapa%20de%20calor%20vgg16.png)
 
 ### 3. Resultados
 
