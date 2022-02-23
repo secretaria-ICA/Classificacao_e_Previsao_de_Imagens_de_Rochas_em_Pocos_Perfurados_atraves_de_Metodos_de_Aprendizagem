@@ -63,7 +63,7 @@ Os melhores parâmetros encontrados para o modelo são:
 
 2.2. Modelos treinados
 
-Foram treinados dois modelos distintos, sendo eles:
+Foram treinados três modelos distintos, sendo eles:
 
 •	Modelo Conv2D 
 
@@ -71,7 +71,7 @@ Foram treinados dois modelos distintos, sendo eles:
 
 •	Modelo VGG16 e Inception V3
 
-Foram gerados três modelos distintos. Por isso a idéia é que o usuário possa escolher o classificador que melhor se adeque aos dados do usuário.
+Por isso a idéia é que o usuário possa escolher o classificador que melhor se adeque aos dados do usuário.
 
 2.3. Métricas principais de avaliação dos modelos
 
