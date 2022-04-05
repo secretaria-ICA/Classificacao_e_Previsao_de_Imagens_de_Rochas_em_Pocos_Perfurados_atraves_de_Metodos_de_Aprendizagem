@@ -1,7 +1,7 @@
 <!-- antes de enviar a versão final, solicitamos que todos os comentários, colocados para orientação ao aluno, sejam removidos do arquivo -->
 # Classificação_e_Previsão_de_Imagens_de_Rochas_em_Poços_Perfurados_por_meio_de_Métodos_de_Aprendizagem_Supervisionados_por_Aprendizagem_Profunda_e_Modelos_Pré-treinados
 
-#### Aluno: [Fabio Basson](https://github.com/fabiobasson/Bi-Master/blob/mai)
+#### Aluno: [Fabio Basson](https://github.com/fabiobasson)
 #### Orientador: [Felipe Borges](https://github.com/FelipeBorgesC) e [Manoela Kohler](https://github.com/manoelakohler).
 
 ---
